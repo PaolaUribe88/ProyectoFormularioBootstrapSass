@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <form class="row g-3">
+            <div class="col-md-4">
+                <label for="validationServer01" class="form-label">Nombre</label>
+                <input type="text" class="form-control is-valid" id="validationServer01" placeholder="Escribe su nombre"
+                    required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-4">
+                <label for="validationServer02" class="form-label">Apellido</label>
+                <input type="text" class="form-control is-valid" id="validationServer02"
+                    placeholder="escribe tu primer apellido" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-4">
+                <label for="validationServer02" class="form-label">Fecha de Nacimiento</label>
+                <input type="date" class="form-control is-valid" id="validationServer02"
+                    placeholder="escribe tu primer apellido" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-3">
+                <label for="validationServer04" class="form-label">Genero</label>
+                <select class="form-select is-invalid" id="validationServer04"
+                    aria-describedby="validationServer04Feedback" required>
+                    <option selected disabled value="selecciona">Selecciona una opcion</option>
+                    <option value="Femenino">Femenino</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="noDecir">Prefiero no decir</option>
+                </select>
+                <div id="validationServer04Feedback" class="invalid-feedback">
+                    Please select a valid state.
+                </div>
+            </div>
+            <div class="col-md-4">
+                <label for="validationServer02" class="form-label">Email</label>
+                <input type="email" class="form-control is-valid" id="validationServer02" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-4">
+                <label for="validationServer02" class="form-label">password</label>
+                <input type="password" class="form-control is-valid" id="validationServer02"
+                    pattern="^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{6,8}$" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+
+            <div class="form row">
+                <h1>Direccion</h1>
+
+                <div class="col-md-4">
+                    <label for="validationServer03" class="form-label">Calle</label>
+                    <input type="text" class="form-control is-invalid" id="validationServer03"
+                        aria-describedby="validationServer03Feedback" required>
+                    <div id="validationServer03Feedback" class="invalid-feedback">
+                        Please provide a valid city.
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationServer03" class="form-label">Numero</label>
+                    <input type="text" class="form-control is-invalid" id="validationServer03"
+                        aria-describedby="validationServer03Feedback" required>
+                    <div id="validationServer03Feedback" class="invalid-feedback">
+                        Please provide a valid city.
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <label for="validationServer03" class="form-label">Depto/Casa</label>
+                    <input type="text" class="form-control is-invalid" id="validationServer03"
+                        aria-describedby="validationServer03Feedback" required>
+                    <div id="validationServer03Feedback" class="invalid-feedback">
+                        Please provide a valid city.
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationServer03" class="form-label">Comuna</label>
+                    <input type="text" class="form-control is-invalid" id="validationServer03"
+                        aria-describedby="validationServer03Feedback" required>
+                    <div id="validationServer03Feedback" class="invalid-feedback">
+                        Please provide a valid city.
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <label for="validationServer03" class="form-label">Ciudad</label>
+                    <input type="text" class="form-control is-invalid" id="validationServer03"
+                        aria-describedby="validationServer03Feedback" required>
+                    <div id="validationServer03Feedback" class="invalid-feedback">
+                        Please provide a valid city.
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <label for="validationServer03" class="form-label">Region</label>
+                    <input type="text" class="form-control is-invalid" id="validationServer03"
+                        aria-describedby="validationServer03Feedback" required>
+                    <div id="validationServer03Feedback" class="invalid-feedback">
+                        Please provide a valid city.
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationServer03" class="form-label">Pais</label>
+                    <input type="text" class="form-control is-invalid" id="validationServer03"
+                        aria-describedby="validationServer03Feedback" required>
+                    <div id="validationServer03Feedback" class="invalid-feedback">
+                        Please provide a valid city.
+                    </div>
+                </div>
+
+                <div class="container">
+                    <h1>Telefono</h1>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationServer02" class="form-label">codigo de pais</label>
+                    <input type="text" class="form-control is-valid" id="validationServer02"
+                        placeholder="escribe tu primer apellido" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationServer02" class="form-label">telefono</label>
+                    <input type="tel" class="form-control is-valid" id="validationServer02" placeholder="123-45-678"
+                        pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3"
+                        aria-describedby="invalidCheck3Feedback" required>
+                    <label class="form-check-label" for="invalidCheck3">
+                        De acuerdo con los datos suministrados
+                    </label>
+                    <div id="invalidCheck3Feedback" class="invalid-feedback">
+                        You must agree before submitting.
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+
+                <button type="submit" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right"
+                    data-bs-title="Su datos se enviaran">
+                    Enviar Datos
+                </button>
+
+                <!-- Button trigger modal -->
+                <input type="reset" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal" value="Borrar">
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Sus datos fueron borrados
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </form>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Tooltip on right">
+        Tooltip on right
+    </button>-->
+
+    <script src="assets/js/bootstapt.js/bootstrap.bundle.js"></script>
+    <script src="assets/js/jquery-3.6.4.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
